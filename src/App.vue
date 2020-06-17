@@ -7,10 +7,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import VueCompositionAPI, { defineComponent } from '@vue/composition-api'
+
 import HelloWorld from './components/HelloWorld.vue'
 
-export default Vue.extend({
-  name: 'App',
+Vue.use(VueCompositionAPI)
+
+export default defineComponent({
   components: {
     HelloWorld,
   },
