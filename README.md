@@ -1,5 +1,8 @@
 # vue2-composition-api-example
 
+この記事の解説用
+https://ria0130.dev/article/vue2-typescript/
+
 ## Project setup
 ```
 yarn install
